@@ -1,4 +1,82 @@
+/* General Styles */
 body {
-    background: blue;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.header-title {
+  font-size: 32px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.header-subtitle {
+  font-size: 18px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+/* Section Styles */
+.section-container {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.section-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.section-list {
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333333;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links {
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-links li a {
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Add more CSS styles for reactive components, cards, parallax, modals, etc. as needed */
